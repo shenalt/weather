@@ -21,10 +21,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.location-area{
-    
+    padding: 0px;
 }
 
 .temperature{
@@ -44,4 +41,28 @@ body{
 
 .degree-section h2{
     font-size: 40px;
+}
+
+.clothing{
+    display: flex;
+    flex-direction: column;
+   /* align-items: center; */
+    margin-top: 60px;
+}
+
+.clothing-description{
+    align-items: center;
+}
+
+.rico-says{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1-top{
+    font-family: sans-serif;
+}
+
+.h1-bottom{
+    font-family: sans-serif;
 }
